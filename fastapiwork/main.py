@@ -1,3 +1,4 @@
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -18,4 +19,6 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return {"hi"}
+    return ("Name:Rogkonam"
+
+            )
