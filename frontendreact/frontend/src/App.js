@@ -7,10 +7,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Result</h1>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <img src={Image} className="App-logo" alt="img" />
-        <Message />
+        <div className="lol">
+          <h1> Result</h1>
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          <img src={Image} className="App-logo" alt="img" />
+          <Message />
+        </div>
       </header>
     </div>
   );
